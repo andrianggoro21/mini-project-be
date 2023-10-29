@@ -23,7 +23,7 @@ module.exports = {
         allowNull: false,
       },
       roleId: {
-        type: Sequelize.STRING,
+        type: Sequelize.INTEGER,
       },
     });
   },
