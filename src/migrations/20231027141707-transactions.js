@@ -17,7 +17,7 @@ module.exports = {
         type: Sequelize.INTEGER,
       },
       priceTotal: {
-        type: Sequelize.INTEGER,
+        type: Sequelize.DECIMAL,
       },
       transactionStatus: {
         type: Sequelize.STRING,
